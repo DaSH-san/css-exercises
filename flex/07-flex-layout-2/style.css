@@ -13,11 +13,12 @@ body {
   color: white;
   display: flex;
   flex: 0 1 auto;
-  align-items: center;
-  padding: 10px;
+  align-items: baseline;
+  padding: 15px;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 32px;
   flex-flow: row wrap;
+  margin-top: -10px;
 }
 
 .footer {
@@ -36,12 +37,13 @@ body {
 }
 
 .sidebar {
-  width: 350px;
+  width: 300px;
   background: royalblue;
   display: flex;
-  flex: 1 1 auto;
-  padding-left: 10px;
+  flex: 1 0 auto;
+  padding: 10px;
   flex-wrap: wrap;
+  font-size: 24px;
 }
 
 .card-container {
@@ -59,7 +61,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
-  padding: 15px;
+  padding: 32px;
   width: 300px;
   height: 320px;
   flex: 0 1 auto;
@@ -73,7 +75,7 @@ ul {
 }
 
 li:first-child {
-  margin-top: -12px;
+  margin-top: -30px;
 }
 
 li {
